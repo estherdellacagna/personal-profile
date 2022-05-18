@@ -1,15 +1,100 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
+:root{
+    --background-color:#f7f7f7;
+    --branding-color:#8444df;
+    --secondary-color:#5F6F81;
+    --default-font-family:'Poppins', sans-serif;
+
+}
 
 
-body{
-    background-color: rgb(178, 226, 189);
+     
+
+
+
+body {
+    font-family: var(--default-font-family);
+  line-height: 1;
+   font-size: 125%;
+  background: var(--background-color);
+  color: #333;
+  
+}
+img {
+  vertical-align: middle;
 }
 h1{
-    font-family: 'Playfair Display', serif;
+    
     font-weight: bold;
+    font-size: 40px;
 }
 p{
-    font-family: 'Poppins', sans-serif;
+   
     font-weight: normal;
+}
+
+.heroDescription{
+    text-align: center;
+}
+.heroDescription h1 span {
+  color: var(--branding-color);
+}
+
+ .heroDescription .smallBio {
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    min-width: 250px;
+    line-height: 1.4;
+}
+.heroDescription .smallBio span {
+  color: var(--branding-color);
+  font-size: 1.1rem;
+}
+
+.greeting{
+    font-size: 16px;
+}
+.heroDescription .greeting {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.heroDescription .socialsResume .resumeLink {
+    background-color: #8444df;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+}
+.socialsList {
+    margin-left: 10px;
+   display: inline-flex;
+   margin-top: 30px;
+}
+.socialsList li a {
+    padding: 9px 10px;
+    background-color: white;
+    border-radius: 6px;
+    color: var(--branding-color);
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0px 4px 6px rgb(134 151 168 / 10%);
+    box-shadow: 0px 4px 6px rgb(134 151 168 / 10%);
+    transition: all 0.3s ease-in;
+    display: inline-block;
+}
+ul {
+    list-style: none;
+        margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
