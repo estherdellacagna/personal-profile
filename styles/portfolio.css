@@ -29,9 +29,13 @@ h1{
     font-weight: bold;
     font-size: 40px;
 }
+h2{
+    font-size: 44px;
+}
 p{
    
     font-weight: normal;
+    font-size: 16px;
 }
 
 .heroDescription{
@@ -62,7 +66,7 @@ p{
     line-height: 1.2;
 }
 
-.heroDescription .socialsResume .resumeLink {
+.heroDescription .socialsResume .resumeLink  {
     background-color: #8444df;
     color: white;
     text-decoration: none;
@@ -74,6 +78,7 @@ p{
     display: inline-block;
     transition: all 0.3s ease-in;
 }
+
 .socialsList {
     margin-left: 10px;
    display: inline-flex;
@@ -89,6 +94,20 @@ p{
     box-shadow: 0px 4px 6px rgb(134 151 168 / 10%);
     transition: all 0.3s ease-in;
     display: inline-block;
+}
+.learnMoreButton{
+     background-color: transparent;
+    color: #8444df;
+    border: var(--branding-color);
+    border: 1px solid;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.3s ease-in;
 }
 ul {
     list-style: none;
