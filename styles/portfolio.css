@@ -7,6 +7,7 @@ font-family: 'Poppins', background color-#F9F7FD;sans-serif;*/
     --background-color:white;
     --branding-color:#8444df;
     --secondary-color:#5F6F81;
+    --third-color:#f9f7fe;
     --default-font-family:'Poppins', sans-serif;
 
     
@@ -31,21 +32,24 @@ img {
 h1{
     
     font-weight: bold;
-    font-size: 44px;
+    font-size: 90px;
 }
 h2{
-    font-size: 44px;
+    font-size: 62px;
 }
 p{
    
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 30px;
     color: var(--secondary-color);
 }
 
+
 .heroDescription{
     text-align: center;
+    background-color: var(--third-color);
+    padding: 4px 20px;
 }
 .heroDescription h1 span {
   color: var(--branding-color);
@@ -128,12 +132,13 @@ p{
 
     h1{
         font-size: 38px;
+        line-height: 2;
     }
      h2{
         font-size: 38px;
     }
     .projectDescription{
-        padding: 0;
+        padding: 80px 20px;
          text-align: center;
     }
    
