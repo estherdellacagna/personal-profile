@@ -1,11 +1,15 @@
 /*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
+font-family: 'Poppins', background color-#F9F7FD;sans-serif;*/
 :root{
-    --background-color:#F9F7FD;
+
+
+
+    --background-color:white;
     --branding-color:#8444df;
     --secondary-color:#5F6F81;
     --default-font-family:'Poppins', sans-serif;
 
+    
 }
 
 
@@ -27,7 +31,7 @@ img {
 h1{
     
     font-weight: bold;
-    font-size: 40px;
+    font-size: 44px;
 }
 h2{
     font-size: 44px;
@@ -119,10 +123,15 @@ p{
       
 }
 
- .projectDescription{
-     padding: 120px 60px ;
- }
+
 @media (max-width:900px){
+
+    h1{
+        font-size: 38px;
+    }
+     h2{
+        font-size: 38px;
+    }
     .projectDescription{
         padding: 0;
          text-align: center;
