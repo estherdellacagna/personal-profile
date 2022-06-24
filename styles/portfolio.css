@@ -28,6 +28,7 @@ h1{
 h2{
     font-size: 62px;
 }
+
 p{
    
     font-weight: normal;
@@ -35,8 +36,26 @@ p{
     line-height: 30px;
     color: var(--secondary-color);
 }
-
-
+nav{
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+     color: var(--secondary-color);
+     transition: all 100ms ease-in-out;
+}
+nav a:hover,nav li.active a{
+      color: var(--branding-color);
+}
 .heroDescription{
     text-align: center;
     background-color: var(--third-color);
@@ -132,6 +151,10 @@ p{
     margin: 30px;
     
 }
+.content-container{
+  padding: 160px 20px;
+
+}
 .content h3{
     font-size: 24px;
 }
@@ -145,6 +168,10 @@ p{
      h2{
         font-size: 38px;
     }
+    nav a{
+        font-size: 15px;
+        margin: 5px;
+    }
     .projectDescription{
         padding: 80px 20px;
          text-align: center;
@@ -153,6 +180,7 @@ p{
        padding: 0;
        text-align: center;
    }
+
 }
 
 ul {
@@ -162,4 +190,8 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+.contact-hero{
+    text-align: center;
 }
