@@ -1,5 +1,4 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', background color-#F9F7FD;sans-serif;*/
+
 :root{
     --background-color:white;
     --branding-color:#8444df;
@@ -106,9 +105,9 @@ a.contactLink{
 .heroDescription{
     text-align: center;
     background-color: var(--third-color);
-    padding: 4px 20px;
+    padding: 140px 20px;
 }
-.heroDescription h1 span {
+.heroDescription h1 span, h1 span {
   color: var(--branding-color);
 }
 
@@ -200,7 +199,7 @@ a.contactLink{
     
 }
 .content-container{
-  padding: 160px 20px;
+  padding: 40px 20px;
 
 }
 .content h3{
@@ -221,7 +220,7 @@ a.contactLink{
         margin: 5px;
     }
     .projectDescription{
-        padding: 80px 20px;
+        padding: 20px 20px;
          text-align: center;
     }
    .content{
